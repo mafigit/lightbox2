@@ -140,7 +140,7 @@ class Lightbox
 
     # Position lightbox
     $window = $(window)
-    top     = $window.scrollTop() + $window.height()/10
+    top     = $window.scrollTop() + $window.height()/10 - 28
     left    = $window.scrollLeft()
     @$lightbox
       .css
