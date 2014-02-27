@@ -21,7 +21,8 @@
     "lint": "jshint ./js/lightbox.js",
     "install-compass": "bundle install",
     "update-compass": "bundle update",
-    "build-compass": "bundle exec compass compile"
+    "build-compass": "bundle exec compass compile",
+    "uglify": "./node_modules/uglify-js/bin/uglifyjs ./js/lightbox.js > ./js/lightbox-2.6.min.js"
   },
   "licenses": [
     {
@@ -31,6 +32,7 @@
   ],
   "devDependencies": {
     "coffee-script": "~1.6.3",
-    "jshint": "~2.1.4"
+    "jshint": "~2.1.4",
+    "uglify-js": "*"
   }
 }
