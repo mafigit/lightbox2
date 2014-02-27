@@ -85,7 +85,6 @@ body:after {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../img/loading.gif) no-repeat;
 }
 
 /* line 64, ../sass/lightbox.sass */
@@ -220,4 +219,8 @@ body:after {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+.spinner {
+  margin: auto;
 }
